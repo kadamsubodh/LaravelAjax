@@ -1,0 +1,172 @@
+
+.categoryText1{
+float:left;
+font-size: 1.2em;
+color:black;
+
+}
+
+
+.center{
+	text-align: center;
+
+}
+
+.manageBtn ul li a {
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    background-color: #9FBC35;
+    padding: 13px 18px;
+    color: #FFF;
+    display: inline-block;
+text-decoration:none;
+}
+.manageBtn ul{
+list-style:outside none none;
+}
+.manageBtn ul li{
+list-style:outside none none;
+display:inline-block;
+}
+.right1{
+text-align:right;
+width:100%;
+padding:0px;
+margin:0px;
+}
+.tableDiv{
+	width:100%;
+	padding:3px;
+	overflow:auto;
+
+}
+.tableDiv tbody tr td{
+	align-content: middle;
+}
+.iconUl{
+	list-style:outside none none;
+	display:inline-block;
+
+}
+.iconul li a{
+list-style:outside none none;
+display:inline-block;
+text-decoration:none;
+
+}
+.delicon{
+	background-color: red;
+	width:30px;
+	height:25px;
+	display: inline-block;
+	text-align: center;
+	background-image:url('images/delete_icon.png');
+	background-repeat: no-repeat;
+	background-position: center;  
+	display: inline-block;
+}
+.editicon{
+	background-color:green;
+	width:25px;
+	height:25px;
+	text-align: center;
+	display:inline-block;
+	background-image:url('images/edit_icon.png');
+	background-repeat: no-repeat;
+	background-position: center;  
+}
+.Manage{
+	margin-top:50px;
+	margin-bottom:60px;
+	margin-left:20px;
+	margin-right:30px;
+	padding-right:50px;
+
+}
+.hidden{
+	visibility: hidden;
+}
+.manageBtn ul li .delBtn{
+	 font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    background-color: #9FBC35;
+    padding: 13px 18px;
+    color: #FFF;
+    display: inline-block;
+text-decoration:none;
+}
+
+/*product classes*/
+.productSubDiv1{
+	padding-left:30px;
+	padding-right:80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+margin-bottom: 20px;
+}
+.red{
+	border: 1px solid #F00;
+padding: 8px 0px 40px 10px;
+}
+.select{
+	    position: absolute;
+    background: #FFF url("../images/drop-down.png") no-repeat scroll 101% center;
+    z-index: 1;
+    border: 1px solid #CACBCD;
+    left: 0px;
+    width: 75%;
+    text-indent: 8px;
+    color: #5F636F;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    top: 32px;
+    border-radius: 3px;
+}
+
+.styled-select {
+  background: transparent url("images/drop-down.png") no-repeat scroll 100% center;
+height: 40%;
+overflow: hidden;
+width: 35%;
+}
+
+.styled-select select {
+   font-size: 18px;
+    width: 110%;
+    height: 41px;
+    background: transparent none no-repeat scroll 0% 0%;
+   /* border: medium none;*/
+}
+
+.styled-select.slate {
+  
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+.styled-select select option
+{
+	padding-right:6px;
+}
+.error{
+	color:red;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.b{
+	padding: 8px 0px 8px 10px;
+}
+.r12{
+	margin-top: 2%;
+padding: 2% 5% 0% 5%;
+}
